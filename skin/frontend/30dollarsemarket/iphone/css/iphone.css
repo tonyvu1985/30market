@@ -1856,7 +1856,7 @@ ul.disc li { padding-left:10px; background:url(../images/bkg_bulletsm.gif) no-re
 /* Main color */
 body > header,
 body > footer ul,
-body > address.copyright { background-color:#e76212; }
+body > address.copyright { background-color:##2c2c2c; }
 
 .map-popup-checkout button,
 .more-button,
@@ -1887,7 +1887,7 @@ body > address.copyright { background-color:#e76212; }
 #nav-container li a { color:#111; }
 
 /* Buttons background color */
-.block-subscribe button { background:green; }
+.block-subscribe button { background:#ff0000; }
 
 body > header dd.menu-box a,
 body > header dd.menu-box strong,
