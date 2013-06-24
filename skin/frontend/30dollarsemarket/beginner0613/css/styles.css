@@ -112,8 +112,8 @@ ul,ol         { list-style:none; }
 .col2-right-layout .col-main {}
 
 /* 3 Columns Layout */
-.col3-layout .col-main { width:475px; margin-left:17px; }
-.col3-layout .col-wrapper { float:left; width:687px; }
+.col3-layout .col-main { width:675px; margin-left:17px; }
+.col3-layout .col-wrapper { float:left; width:887px; }
 .col3-layout .col-wrapper .col-main { float:right; }
 
 /* Content Columns */
@@ -369,7 +369,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 /* Toolbar */
 .toolbar {}
 .toolbar .pager { padding:0; border-bottom:0px solid #fff; }
-.toolbar .sorter { border-bottom:0px solid #fff; margin-top: 10px;}
+.toolbar .sorter { border-bottom:0px solid #fff; margin: 10px 0;}
 .toolbar-bottom {}
 
 /* Data Table */
@@ -510,7 +510,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Header ================================================================================ */
 .logo { float:left; }
-.header-container { border-top:5px solid #0d2131; border-bottom:1px solid #415966; background:#2c2c2c; }
+.header-container { border-top:5px solid #0d2131; background:#2c2c2c; }
 .header { width:1138px; margin:0 auto; padding:0 10px; text-align:right; position:relative; z-index:10; }
 .header .logo { float:left; margin:3px 0 10px 12px; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
@@ -543,8 +543,8 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container .top-container a { font-size:11px; color:#ebbc58; }
 
 /********** < Navigation */
-.nav-container { background:#0a263d url(../images/bkg_nav0.jpg) 50% 0 repeat-y; }
-#nav { width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
+.nav-container { background:#333; }
+#nav { width:1168px; margin:0 auto; padding:3px 0px; font-size:13px; }
 
 /* All Levels */ /* Style consistent throughout all nav levels */
 #nav li { position:relative; text-align:left; }
@@ -559,9 +559,9 @@ tr.summary-details-excluded { font-style:italic; }
 /* 0 Level */
 #nav li { float:left; }
 #nav li.active a { color:#d96708; }
-#nav a { float:left; padding:5px 12px 6px 8px; color:#a7c6dd; font-weight:bold; }
+#nav a { float:left; padding:5px 12px 6px 8px; color:#fff; font-weight:bold; text-transform: uppercase;}
 #nav li.over a,
-#nav a:hover { color:#d96708; }
+#nav a:hover { color:#ff0000; }
 
 /* 1st Level */
 #nav ul li,
