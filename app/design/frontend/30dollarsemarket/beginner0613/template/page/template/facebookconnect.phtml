@@ -3,7 +3,26 @@
  * and open the template in the editor.
  -->
 <!-- add facebook connect -->
+<style>
+    .social-network-nav li{float:right;}
+    .facebook-group{background: #ffd34e; padding: 0 6px; margin: 0 7px;}
+    .facebook-group a{color: #2d2d2d;  padding: 5px; text-decoration: none; display: block;}
+    #div-free-icon{position: absolute; top: 86px; right: 200px;}
+</style>
 <div style="clear:both;"></div>
-<a href="https://www.facebook.com/pages/30-dollars-market/137835646369303">
-        <img src="<?php echo $this->getSkinUrl('images/beginner0613-theme/ico-facebook.png') ?>" alt="30 dollars emarket" />
-</a>
+<ul class="social-network-nav">
+    <li>
+        <a href="https://www.facebook.com/pages/30-dollars-market/137835646369303">
+                <img src="<?php echo $this->getSkinUrl('images/beginner0613-theme/ico-facebook.png') ?>" alt="30 dollars emarket" />
+        </a>        
+    </li>
+    
+    <li class="facebook-group">        
+        <a href='https://www.facebook.com/groups/30dollarsemarket/' alt='Join Sell & Buy Community'>Join Sell & Buy Community</a>
+    </li>
+    
+    <div id="div-free-icon">
+        <img src="<?php echo $this->getSkinUrl('images/beginner0613-theme/free-icon.png');?>" alt="free trading platform" />
+    </div>
+</ul>
+

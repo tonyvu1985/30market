@@ -523,7 +523,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .form-search input.input-text { float:left; border-color:#5c7989; width:270px; font-style: italic; color: #a8a8a8; padding:10px 2px;}
 .header .form-search button.button { float:left; }
 .header .form-search button.button span { border:0; width:36px; height:35px; background: #fff url(../images/beginner0613-theme/icon-search.png) 0px 5px no-repeat; padding:0; font:bold 11px/21px Tahoma, Verdana, Arial, sans-serif; }
-.header .form-search button.button span span { /*background-position:100% 0; padding:0 6px 0 3px;*/ }
+.header .form-search but.footer addresston.button span span { /*background-position:100% 0; padding:0 6px 0 3px;*/ }
 .header .form-search .search-autocomplete { z-index:999; left:40px !important; top:22px !important; }
 .header .form-search .search-autocomplete ul { border:1px solid #5c7989; background-color:#f9f5f0; }
 .header .form-search .search-autocomplete li { text-align:left; border-bottom:1px solid #f4eee7; padding:2px 8px 1px 8px; cursor:pointer; }
@@ -535,7 +535,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .form-language label { font-weight:bold; padding-right:5px; color:#a7c6dd; vertical-align:middle; }
 .header .form-language select { padding:0; }
 .header .form-language select.flags option { background-position:4px 50%; background-repeat:no-repeat; padding-left:25px; }
-.header .links { float:right; margin:0px 0px 10px 0px; }
+.header .links { float:right; margin:15px 0px 20px 0px; }
 .header .links li { float:left; font-size:11px; background:url(../images/bkg_pipe1.gif) 100% 60% no-repeat; padding:0 8px 0 7px; }
 .header .links a { color:#585858; text-decoration: none;}
 .header .links a:hover { color:#afafaf; }
@@ -1721,7 +1721,7 @@ tr.summary-details-excluded { font-style:italic; }
 .footer .bugs { margin:13px 0 0; color:#ecf3f6; }
 .footer .bugs a { color:#ecf3f6; text-decoration:underline; }
 .footer .bugs a:hover { text-decoration:none; }
-.footer address { margin:0 0 20px; color:#ecf3f6; }
+.footer address { margin:0 0 20px; color:#585858; }
 .footer address a { color:#ecf3f6; text-decoration:underline; }
 .footer address a:hover { text-decoration:none; }
 .footer ul { display:inline; }
