@@ -68,7 +68,8 @@ Default layout, loads most of the pages
 
             <block type="page/html_header" name="header" as="header">
                 <block type="page/template_links" name="top.links" as="topLinks"/>
-                <block type="core/template" name="facebookconnect" template="page/template/facebookconnect.phtml"/>
+                <block type="core/template" name="facebook.connect" template="page/template/facebookconnect.phtml"/>
+                <block type="core/template" name="payment.method" template="page/template/payment-method.phtml"/>
                 <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/>
              <!-- hide the navigation Bar  -->
                 <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
