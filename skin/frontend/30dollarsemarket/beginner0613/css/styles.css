@@ -183,7 +183,7 @@ input.input-text:focus,select:focus,textarea:focus { background-color:#edf7fd; }
 .form-list select { width:260px; border: 1px solid #ccc}
 .form-list li.wide .input-box { width:535px; }
 .form-list li.wide input.input-text { width:529px; }
-.form-list li.wide textarea { width:529px; }
+.form-list li.wide textarea { width:529px; border: 1px solid #ccc;}
 .form-list li.wide select { width:535px; border: 1px solid #ccc;}
 .form-list li.additional-row { border-top:1px solid #ccc; margin-top:10px; padding-top:7px; }
 .form-list li.additional-row .btn-remove { float:right; margin:5px 0 0; }
