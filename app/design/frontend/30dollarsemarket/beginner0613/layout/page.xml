@@ -48,7 +48,7 @@ Default layout, loads most of the pages
                 <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
                 <action method="addJs"><script>mage/cookies.js</script></action>
-
+                <action method="addItem"><type>skin_js</type><name>js/google-analytics.js</name></action>
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 
                 <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
@@ -69,7 +69,6 @@ Default layout, loads most of the pages
             <block type="page/html_header" name="header" as="header">
                 <block type="page/template_links" name="top.links" as="topLinks"/>
                 <block type="core/template" name="facebookconnect" template="page/template/facebookconnect.phtml"/>
-                <block type="core/template" name="facebookconnect" template="page/template/google-analytics.phtml"/>
                 <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/>
              <!-- hide the navigation Bar  -->
                 <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
